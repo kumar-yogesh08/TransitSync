@@ -73,7 +73,7 @@ For questions, contact:
 │   └── 10. The Intelligent Routing System.pdf
 ├── FieldTest&UI/
 │   ├── IntelligentRouting.png
-│   └── DriverEnd_Application_TransitSyncDriver.apk
+│   └── DriverEnd_Application_TransitSyncDriver
 ├── TransitSync_Architecture&Code/
 │   ├── System_Design
 │   └── workFlow&Explanation.pdf
