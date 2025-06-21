@@ -57,7 +57,7 @@ The prototype of the project in it self is huge, its actual implementation encom
 would be a work of art and a technological marvel if implemented.
 
 ## 📘 Learn More
-The further Explanation and understanding of the project can be inferred from TransitSync_Architecture&Code/workFlow&Explanation as a introductory text file doesn't do justice to complicated nuances of the project. One can also refer to ./Project Report and FieldTest&UI for visual understanding (only for Autos/ Buses are future Implementation).
+The further Explanation and understanding of the project can be inferred from TransitSync_Architecture&Code/workFlow&Explanation as a introductory text file doesn't do justice to complicated nuances of the project. One can also refer to ./Project Report and FieldTest&UI for visual understanding (only for Autos, Buses are future Implementation).
 
 ## 📫 Contact
 
