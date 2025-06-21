@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="teal_700">#009688</color>
+    <color name="red_500">#DF674A</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="Green">#88E84A</color>
+    <color name="design_default_color_primary">#6200EE</color> <color name="design_default_color_primary_dark">#3700B3</color> <color name="design_default_color_secondary">#03DAC5</color> <color name="design_default_color_secondary_variant">#018786</color> <color name="design_default_color_background">#FFFFFF</color>
+    <color name="design_default_color_surface">#FFFFFF</color>
+    <color name="design_default_color_error">#B00020</color>
+    <color name="design_default_color_on_primary">#FFFFFF</color>
+    <color name="design_default_color_on_secondary">#000000</color>
+    <color name="design_default_color_on_background">#000000</color>
+    <color name="design_default_color_on_surface">#000000</color>
+    <color name="design_default_color_on_error">#FFFFFF</color>
+    <color name="selectedRouteColour">#00B8D4</color>
+</resources>

@@ -1,0 +1,10 @@
+1)Start a EC2 instance on Aws or Other Compute Service can also be used.
+
+2)setup node js , create index.js and copy the code.
+
+3)Install all required dependencies.
+
+4) Copy the Ip address and paste in TransitSyncDriver and TransitSyncPassenger serverIp.
+
+5) Run node index.js, need for tracking driver by the passenegr and queuing of driver as well as Passenger Count Updates.
+[Note:Route Registraion and Route Selection is Handled by Apigateway and Lambda]

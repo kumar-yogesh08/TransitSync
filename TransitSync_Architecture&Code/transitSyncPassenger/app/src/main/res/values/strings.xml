@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TransitSync Passenger</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="vector_image_description">Icon representing the intelligent route feature.</string>
+</resources>

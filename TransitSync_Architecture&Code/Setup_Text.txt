@@ -1,0 +1,8 @@
+1)Understand the System Design and Architecture,from Current_System_design
+
+2)Setup up the respective elements of the architecture, follow Setup_Text of each Component of the architecture.
+[Note: There is Setup_Text inside each Component i.e. Apigateway and EC2 Instance server Code]
+
+3)Setup Your redis and Neo4j and Fill there credintials in Both Api gateway and Ec instance server Code
+
+4)Copy the TransitSyncDriver and TransitSyncPassenger , Fill up all the fields required-> MapsApi Key in manifest, ServerIp and Apigateway url.

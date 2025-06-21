@@ -1,0 +1,15 @@
+1)Make ApiGate just as shown in the image AwsViewofApigateway,
+keep the end points as they are.
+
+2)Create Lambda function and attach them to their respective Apigateway endPoint for example:-
+DriverRouteSelect(endPoint)->ProcessRouteSelect(lambda)
+copy the code of DriverRouteSelect_ProcessRouteSelect into 
+ProcessRouteSelect(lambda)
+[Note: EndPoint_LambdaFucntionName nomenclature is used just for understanding, of where to put which code.]
+
+3)Setup redis Layer and neo4j layer in Lambda Layers. Fill up the redis and neo4j Credentials in all the codes.
+
+4)Copy the ApiGateway endPoint and Paste in Your_ApiGateway_Url in
+TransitSyncDriver and TransitSyncPassenger 
+
+[Note:Lambda TimeOut Would possiblely be needed To be increased to 10 sec in lambda Configurations, especially for ProcessRouteSelect Lambda]
