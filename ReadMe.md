@@ -13,7 +13,7 @@ There are no Current modern day Software Technologies working in the field of pu
 📁 Refer to:
 - [Current System Design](./Current_System_Design_SVG.svg)
 - [System_Design](./TransitSync_Architecture&Code/System_Design)
-- [Project Report](./Project_Report.pdf)
+- [Project Report](https://drive.google.com/file/d/1dcd7buucAV7AnF3mSWxGRZk9LmbbfXQx/view?usp=drive_link)
 
 
 ## 🚀 What Makes TransitSync Different?
