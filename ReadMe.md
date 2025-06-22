@@ -56,6 +56,49 @@ To the already established architecture if a IoT device with unique QR code is a
 The prototype of the project in it self is huge, its actual implementation encompassing future scopes is indeed a formidable task. The unified public transport Virtual System  
 would be a work of art and a technological marvel if implemented.
 
+## 🔑 Key Features
+
+---
+
+### 🚦 Driver-Side Functionality
+
+#### 🛣️ Route Registration Workflow
+<p align="center">
+  <img src="./FieldTest&UI/DriverEnd_Application_TransitSyncDriver.png" width="800" alt="Route Registration Workflow"/>
+</p>
+
+#### 📱 Route Registration
+<p align="center">
+  <img src="./FieldTest&UI/RouteRegistration.png" width="800" alt="Driver End Application UI"/>
+</p>
+
+---
+
+### 👤 Passenger-Side Functionality
+
+#### 🧭 Passenger Application UI
+<p align="center">
+  <img src="./FieldTest&UI/PassengerEnd_Application_TransitSyncPassenger.png" width="350" alt="Passenger End Application UI"/>
+</p>
+
+#### 📍 Live Driver Tracking Interface
+<p align="center">
+  <img src="./FieldTest&UI/PassengerEnd_Driver_Tracking.png" width="800" alt="Driver Tracking UI"/>
+</p>
+
+---
+
+### 🧭 Intelligent Routing System
+
+#### 🗃️ Graph Database View
+<p align="center">
+  <img src="./FieldTest&UI/Graph_Database_View.png" width="800" alt="Graph View"/>
+</p>
+
+#### 🗺️ Routing Workflow UI
+<p align="center">
+  <img src="./FieldTest&UI/Intelligent_Routing_UI.png" width="800" alt="Intelligent Routing UI"/>
+</p>
 ## 📘 Learn More
 The further Explanation and understanding of the project can be inferred from TransitSync_Architecture&Code/workFlow&Explanation as a introductory text file doesn't do justice to complicated nuances of the project. One can also refer to ./Project Report and FieldTest&UI for visual understanding (only for Autos, Buses are future Implementation).
 
