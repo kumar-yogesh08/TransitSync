@@ -11,7 +11,7 @@ start-(pick rickshaw)->rajiv Chowk->Minakshi bazar->Anand chowk-(pick a bus)->pa
 There are no Current modern day Software Technologies working in the field of public Transport.  
 **This Project Aims to Establish a standard for Virtualization and optimization of public Transport Systems.**  
 📁 Refer to:
-- [Current System Design](./FieldTest&UI/Current_System_Design_SVG.svg)
+- [Current System Design](./Current_System_Design_SVG.svg)
 - [System_Design](./TransitSync_Architecture&Code/System_Design)
 - [Project Report](./Project_Report.pdf)
 
