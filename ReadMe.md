@@ -4,12 +4,14 @@
 
 What if there was a unified platform for public transport entities, where passengers could track the buses and Rickshaws, drivers could know where passengers are,a more efficient platform connecting both. What if one could go to any city and get exact outline on how to change hubs/chowks take different modes of transport to reach from one point to another,GO to 
 start-(pick rickshaw)->rajiv Chowk->Minakshi bazar->Anand chowk-(pick a bus)->paltan bazar-(pick a Rickshaw)->destination with total_cost-> 80 RS
+
 📁 Refer to:
 - [Intelligent Routing UI](./FieldTest&UI/Intelligent_Routing_UI.png)
 - [Intelligent Routing System](https://drive.google.com/file/d/1BPSoKtLb5-AaoxOGHyjKPCQKRrlcMHpk/view?usp=drive_link)
 
 There are no Current modern day Software Technologies working in the field of public Transport.  
 **This Project Aims to Establish a standard for Virtualization and optimization of public Transport Systems.**  
+
 📁 Refer to:
 - [Current System Design](./Current_System_Design_SVG.svg)
 - [System_Design](./TransitSync_Architecture&Code/System_Design)
@@ -22,7 +24,7 @@ This is **not Ola or Uber**. It doesn't work on the **"pick up from anywhere"** 
 Instead, it works on **established public transport routes**, dynamically updated by drivers or transport authorities through **Route Registration**.
 
 📁 Refer to:
-- [Route Registration (Driver App)](./FieldTest&UI/DriverEnd_Application_TransitSyncDriver.png))
+- [Route Registration (Driver App)](./FieldTest&UI/DriverEnd_Application_TransitSyncDriver.png)
 
 
 ## 🧠 Core Vision
@@ -41,7 +43,7 @@ This project is based on the standard observation that public transport entities
 Passing through same paths [Lat and Lng] over and over again. If We could virtualize this system it would serve as a base for communication, tracking and hub network Optimization.  
 
 📁 Refer to:
-- [Virtualization of Public Transport Hubs](https://drive.google.com/file/d/1BPSoKtLb5-AaoxOGHyjKPCQKRrlcMHpk/view?usp=drive_link)
+- [Virtualization of Public Transport Hubs](https://drive.google.com/file/d/1QXCKaO6TYIrlPKyrf8crh_ZhevGiJ5NH/view?usp=drive_link)
 
 Let's Classify and understand the Segregation of entities:  
 1) AutoRickshaw/E-Rickshaw: - Current system has a unsaid rule that at chowks/hubs the auto driver that comes first loads up all the passengers first and then when the auto is full they move,  
@@ -54,6 +56,7 @@ The next Driver moves to first Position in queue and is now shown the the live p
 
 This idea Might seem simple but this opens up doors to far more interesting ideas and implementations which i came through and established in this project.  
 Discussed thoroughly in WorkFlow and Explanation
+
 📁 Refer to:
 - [Work Flow and Explanantion](https://drive.google.com/file/d/1o0ICIb8hbPJLTMZ-J83LntaHy5AIU3Sg/view?usp=drive_link)
 
