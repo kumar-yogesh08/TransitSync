@@ -4,11 +4,17 @@
 
 What if there was a unified platform for public transport entities, where passengers could track the buses and Rickshaws, drivers could know where passengers are,a more efficient platform connecting both. What if one could go to any city and get exact outline on how to change hubs/chowks take different modes of transport to reach from one point to another,GO to 
 start-(pick rickshaw)->rajiv Chowk->Minakshi bazar->Anand chowk-(pick a bus)->paltan bazar-(pick a Rickshaw)->destination with total_cost-> 80 RS
-[Refer to ./Project Report(10.The Intelligent Routing System) and ./FieldTest&UI/IntelligentRouting.png]
+📁 Refer to:
+- [Current System Design](./FieldTest&UI/Intelligent_Routing_System.pdf)
+- [Intelligent Routing System](https://drive.google.com/file/d/1BPSoKtLb5-AaoxOGHyjKPCQKRrlcMHpk/view?usp=drive_link)
 
 There are no Current modern day Software Technologies working in the field of public Transport.  
 This Project Aims to Establish a standard for Virtualization and optimization of public Transport Systems.  
-[Refer to System ./Current_System_Design_SVG.svg Or ./TransitSync_Architecture&Code/System_Design]
+📁 Refer to:
+- [Current System Design](./FieldTest&UI/Current_System_Design_SVG.svg)
+- [System_Design](./TransitSync_Architecture&Code/System_Design)
+- [Project Report](./Project_Report.pdf)
+
 
 ## 🚀 What Makes TransitSync Different?
 
@@ -16,7 +22,8 @@ This is **not Ola or Uber**. It doesn't work on the **"pick up from anywhere"** 
 Instead, it works on **established public transport routes**, dynamically updated by drivers or transport authorities through **Route Registration**.
 
 📁 Refer to:
-- `./FieldTest&UI/DriverEnd_Application_TransitSyncDriver(Route Registration)`
+- [Route Registration (Driver App)](./FieldTest&UI/DriverEnd_Application_TransitSyncDriver))
+
 
 ## 🧠 Core Vision
 
@@ -32,7 +39,9 @@ This Virtual System aims to fulfill the communication gap between the passenger 
 
 This project is based on the standard observation that public transport entities move like freight trains from one hub/Chowk to another hub/Chowk to and forth.  
 Passing through same paths [Lat and Lng] over and over again. If We could virtualize this system it would serve as a base for communication, tracking and hub network Optimization.  
-[Refer ./Project Report( 9. Virtualization of Public Transport Hubs)]
+
+📁 Refer to:
+- [Virtualization of Public Transport Hubs](https://drive.google.com/file/d/1BPSoKtLb5-AaoxOGHyjKPCQKRrlcMHpk/view?usp=drive_link)
 
 Let's Classify and understand the Segregation of entities:  
 1) AutoRickshaw/E-Rickshaw: - Current system has a unsaid rule that at chowks/hubs the auto driver that comes first loads up all the passengers first and then when the auto is full they move,  
@@ -67,9 +76,9 @@ would be a work of art and a technological marvel if implemented.
   <img src="./FieldTest&UI/DriverEnd_Application_TransitSyncDriver.png" width="800" alt="Route Registration Workflow"/>
 </p>
 
-#### 📱 Route Registration
+#### 📱 Complex Route Registration
 <p align="center">
-  <img src="./FieldTest&UI/RouteRegistration.png" width="800" alt="Driver End Application UI"/>
+  <img src="./FieldTest&UI/RouteRegistration.png" width="350" alt="Driver End Application UI"/>
 </p>
 
 ---
@@ -92,7 +101,7 @@ would be a work of art and a technological marvel if implemented.
 
 #### 🗃️ Graph Database View
 <p align="center">
-  <img src="./FieldTest&UI/Graph_Database_View.png" width="800" alt="Graph View"/>
+  <img src="./FieldTest&UI/Graph_Database_View.jpg" width="800" alt="Graph View"/>
 </p>
 
 #### 🗺️ Routing Workflow UI
@@ -100,7 +109,14 @@ would be a work of art and a technological marvel if implemented.
   <img src="./FieldTest&UI/Intelligent_Routing_UI.png" width="800" alt="Intelligent Routing UI"/>
 </p>
 ## 📘 Learn More
-The further Explanation and understanding of the project can be inferred from TransitSync_Architecture&Code/workFlow&Explanation as a introductory text file doesn't do justice to complicated nuances of the project. One can also refer to ./Project Report and FieldTest&UI for visual understanding (only for Autos, Buses are future Implementation).
+The further Explanation and understanding of the project can be inferred from TransitSync_Architecture&Code/workFlow&Explanation as a introductory text file doesn't do justice to complicated nuances of the project. One can also,
+refer to ./Project Report and FieldTest&UI for visual understanding (only for Autos, Buses are future Implementation).
+
+📁 Refer to:
+- [Project Report](./Project_Report.pdf)
+- [Field Test for Visual Understanding(only for Autos, Buses are future Implementation)](./FieldTest&UI)
+- [Work Flow](./TransitSync_Architecture&Code/WorkFlow&Explanation.pdf)
+- [Flow Chart](./TransitSync_Architecture&Code/FlowChart.svg)
 
 ## 📫 Contact
 
