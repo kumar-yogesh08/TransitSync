@@ -46,13 +46,13 @@ Passing through same paths [Lat and Lng] over and over again. If We could virtua
 - [Virtualization of Public Transport Hubs](https://drive.google.com/file/d/1QXCKaO6TYIrlPKyrf8crh_ZhevGiJ5NH/view?usp=drive_link)
 
 Let's Classify and understand the Segregation of entities:  
-1) AutoRickshaw/E-Rickshaw: - Current system has a unsaid rule that at chowks/hubs the auto driver that comes first loads up all the passengers first and then when the auto is full they move,  
-and so follows for the others auto rickshaw driver in the queue as well.
+1) AutoRickshaw/E-Rickshaw: - Currently, at busy chowks or transit hubs, there's an unwritten rule: the first auto driver in the queue picks up all the passengers until full, then departs. The next driver then moves forward, and the cycle repeats.
 
-But what if the auto Drivers knew that there are customers ahead in the route.  
-He could stop wasting time waiting for passengers to load up at the hub and move in expectation of picking up passengers up ahead reducing waiting time for the driver and also increasing round trips. Also what if the passengers on the route could track the drivers on the route. This frees up the hubs, reducing congestion and also streamlines the process of Picking up passengers.
+However, this system can be inefficient. What if auto drivers had visibility into potential passengers further along their route? Instead of waiting idly at the hub, a driver could choose to start their trip early, anticipating pickups along the way. This would reduce waiting time, increase the number of daily trips, and help decongest the hubs. Also what if the passengers on the route could track the drivers on the route. This frees up the hubs, reducing congestion and also streamlines the process of Picking up passengers.
 
-The next Driver moves to first Position in queue and is now shown the the live passengers on the route, based on which the driver can make his decision to wait or move.
+The system dynamically updates the queue: as the first driver departs, the next driver moves into the front position and gains visibility into real-time passenger data along the route. This enables them to make an informed decision — whether to wait at the hub or proceed in anticipation of pickups.
+
+Meanwhile, drivers further back in the queue (positions 2, 3, 4, etc.), who would otherwise be sitting idly, can receive ride reservation prompts. This not only reduces idle time but also improves driver utilization, eases hub congestion, and enhances overall traffic flow.
 
 This idea Might seem simple but this opens up doors to far more interesting ideas and implementations which i came through and established in this project.  
 Discussed thoroughly in WorkFlow and Explanation
