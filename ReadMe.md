@@ -66,7 +66,7 @@ But what if the passenger could track it, could know how many passengers are alr
 To the already established architecture if a IoT device with unique QR code is added where the IoT device could send the location of bus to the server for tracking by the passengers and the QR code on login could serve for Route Registration for the driver/governing authority linking the route to the bus/IoT device fixed on the bus and same QR behind every seat on the bus could serve as portal for ticket booking from one station to other for the passengers.
 
 📁 Refer to:
-- [Future Implementaion System Design](./FieldTest&UI/Future_System_design_SVG.svg)
+- [Future Implementaion System Design](./TransitSync_Architecture&Code/System_Design/Future_System_design_SVG.svg)
 
 3) Any other entities: The Virtual architecture is very much open to all kinds of vehicles and entities, and provides scope for further additions.
 
