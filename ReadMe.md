@@ -65,6 +65,9 @@ Discussed thoroughly in WorkFlow and Explanation
 But what if the passenger could track it, could know how many passengers are already in the Bus, book tickets online from one stop to other eliminating the redundancy of Ticket checkers.  
 To the already established architecture if a IoT device with unique QR code is added where the IoT device could send the location of bus to the server for tracking by the passengers and the QR code on login could serve for Route Registration for the driver/governing authority linking the route to the bus/IoT device fixed on the bus and same QR behind every seat on the bus could serve as portal for ticket booking from one station to other for the passengers.
 
+📁 Refer to:
+- [Future Implementaion System Design](./FieldTest&UI/Future_System_design_SVG.svg)
+
 3) Any other entities: The Virtual architecture is very much open to all kinds of vehicles and entities, and provides scope for further additions.
 
 The prototype of the project in it self is huge, its actual implementation encompassing future scopes is indeed a formidable task. The unified public transport Virtual System  
