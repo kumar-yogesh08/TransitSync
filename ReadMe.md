@@ -67,7 +67,7 @@ To the already established architecture if a IoT device with unique QR code is a
 
 📁 Refer to:
 - [Future Implementaion System Design](./TransitSync_Architecture&Code/System_Design/Future_System_design_SVG.svg)
-- [Implementaion for Buses](./https://drive.google.com/file/d/1l8P6j96XVnoBLoVH-LjtEHYDaP02DbyL/view?usp=drive_link)
+- [Implementaion for Buses](https://drive.google.com/file/d/1l8P6j96XVnoBLoVH-LjtEHYDaP02DbyL/view?usp=drive_link)
   
 3) Any other entities: The Virtual architecture is very much open to all kinds of vehicles and entities, and provides scope for further additions.
 
