@@ -1,0 +1,52 @@
+Hash               |    Hub:{HubId}->[Hub Name,City,Hub Lat Lng, HubId]   | HubId key     | Stores information about the Hub  | Ex->Hub:ChIJwZPwLMrpRDcRU-9ghbWQ_Tg
+
+
+
+Sorted Set	   |    {HubId:HubId}->[Polylines]                        | RoutesId Key  | Stores all Routes between 	      |Ex->ChIJX9yD-27pRDcRhnn0rKf5l1Y:ChIJEUQx_cjrRDcRO2EVVTwOpig
+											    two hubs as there can be multiple 
+
+
+Hash		   |    {routeId}->[Start hub Id, Start Hub Name, 
+			End Hub ID, End Hub Name,End City, Start City,    | RouteId Key(SHA26(PolyLine))   | Stores all information about the route   | Ex->b775d7f3c41bdff3bac9692b128e8e17
+ 			Polyline, Start Hub Lat Lng,End Hub Lat Lng,
+			Distance between Hubs,Cost]
+
+
+Sorted Set         |    {routeId}:{HubId}->[driver Id1, driverId2..]      | queueId key  |  Stores drivers in the queue in a | Ex->9544a50fb1742efb52a32529bee31a34:ChIJiboqKZPDRDcRkdK3zw                           
+											    specific route and direction 
+											    (Route Id for specific Route and
+											     hubID where the vehicle is 
+											     currently physically queued)
+
+Sorted Set         | {routeId}:{HubId}:InTransit->[driver Id1, driverId2..]  |  In Transit | Stores drivers in the queue in a | Ex->9544a50fb1742efb52a32529bee31a34:ChIJiboqKZPDRDcRkdK3zw                           
+										queueId/     specific route and direction 
+                                                                                ListId key   in Transit
+
+Sorted Set         | {routeId}:{HubId}:Passenger->[Passenger Id1..]  | queueId key |  Stores PassengerIDs on Route   | Ex->9544a50fb1742efb52a32529bee31a34:ChIJiboqKZPDRDcRkdK3zw:Passenger                           
+										            
+                                                                                              
+Sorted Set         |    {City}:autocomplete->[Hub Name1:HubId1,           | Autocomplete key | Stores Hub name with hub Id used for automplete   | Ex->Ranchi:autocomplete
+	 				      Hub Name2:Hub Id2...]
+
+
+List		  |     cities->[ Ranchi, Delhi ...]                      | Cities Key       | Stores all Cities                                 | Ex->cities
+
+
+
+GeoSpatial        |    {City}:Hub->[Hub Name:Hub Id,...]                  | Geo Search Key   | Stores geo spatial data of Hubs in a city         | Ex->Ranchi:Hub
+
+
+String            |    {driverId}->[Lat Lng,...]			  | DriverId key     | Stores driver Location                            | Ex->driverId1
+
+String            |    {driverId}:isLive->'true'                          | Driver is        | Used to check if driver is live within 5 mins     | Ex->driverId1:isLive
+                                                                            Live Key                  (Expires in 5 mins)
+
+String            |    {PassengerId}:isLive->'true'                          | Passenger is        | Used to check if Passenger is live within 5 mins     | Ex->PassengerId1:isLive
+                                                                               Live Key                  (Expires in 5 mins)
+
+Note: {} in keys represent Dynamic element else they are static Strings example of dynamic element {routeId},{City} etc ,example of static strings InTransit,autocomplete etc(mostly used to 																	         		          distinguish a key)
+All Values to respective String are dynamic.
+
+Format:
+
+Data Type        |   key->Value 				          | Key Naming      |          Value usages		                 |  Example of key
