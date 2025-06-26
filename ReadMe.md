@@ -63,7 +63,7 @@ Discussed thoroughly in WorkFlow and Explanation
 2) Buses: Moving in a fixed route these public transport entities are essential especially in metropolitan cities for carrying passengers from one point to other. Passengers wait for buses not exactly knowing when it will come and many a times to dismay the bus is too crowded to be boarded which leads one to book a cab.
 
 But what if the passenger could track it, could know how many passengers are already in the Bus, book tickets online from one stop to other eliminating the redundancy of Ticket checkers.  
-To the already established architecture if a IoT device with unique QR code is added where the IoT device could send the location of bus to the server for tracking by the passengers and the QR code on login could serve for Route Registration for the driver/governing authority linking the route to the bus/IoT device fixed on the bus and same QR behind every seat on the bus could serve as portal for ticket booking from one station to other for the passengers.
+To the already established architecture if a IoT device with unique QR code is added where the IoT device could send the location of bus to the server for tracking by the passengers and initially the QR code on login could serve for Route Registration for the driver/governing authority linking the route to the bus-IoT device fixed on the bus and same QR later can be used behind every seat on the bus as a portal for ticket booking from one station to other for the passengers.
 
 📁 Refer to:
 - [Future Implementaion System Design](./TransitSync_Architecture&Code/System_Design/Future_System_design_SVG.svg)
