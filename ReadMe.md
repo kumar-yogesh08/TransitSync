@@ -37,6 +37,10 @@ In high-density countries like India, this chaotic wait-and-hope system leads to
 
 TransitSync **closes the communication gap** between driver and passenger, optimizing movement, reducing congestion, and increasing efficiency.
 
+<p align="center">
+  <img src="./FieldTest&UI/Concept.gif" width="800" alt="Concept Animation: Communication Gap and TransitSync Solution"/>
+</p>
+
 This Virtual System aims to fulfill the communication gap between the passenger and the driver in a public transport commute, Optimizing it and reducing the public transport entities making the system more efficient and not a pain in the back.
 
 This project is based on the standard observation that public transport entities move like freight trains from one hub/Chowk to another hub/Chowk to and forth.  
@@ -65,6 +69,10 @@ Discussed thoroughly in WorkFlow and Explanation
 But what if the passenger could track it, could know how many passengers are already in the Bus, book tickets online from one stop to other eliminating the redundancy of Ticket checkers.  
 To the already established architecture if a IoT device with unique QR code is added where the IoT device could send the location of bus to the server for tracking by the passengers and initially the QR code on login could serve for Route Registration for the driver/governing authority linking the route to the bus-IoT device fixed on the bus and same QR later can be used behind every seat on the bus as a portal for ticket booking from one station to other for the passengers.
 
+<p align="center">
+  <img src="./FieldTest&UI/Buses_Concept.gif" width="800" alt="Concept Animation: Communication Gap buses and TransitSync Solution"/>
+</p>
+
 📁 Refer to:
 - [Future Implementaion System Design](./TransitSync_Architecture&Code/System_Design/Future_System_design_SVG.svg)
 - [Implementaion for Buses](https://drive.google.com/file/d/1l8P6j96XVnoBLoVH-LjtEHYDaP02DbyL/view?usp=drive_link)
@@ -73,6 +81,10 @@ To the already established architecture if a IoT device with unique QR code is a
 
 The prototype of the project in it self is huge, its actual implementation encompassing future scopes is indeed a formidable task. The unified public transport Virtual System  
 would be a work of art and a technological marvel if implemented.
+
+<p align="center">
+  <img src="./FieldTest&UI/Complete_Concept.gif" width="800" alt="Concept Animation: Communication Gap Complete and TransitSync Solution"/>
+</p>
 
 ## 🔑 Key Features
 
