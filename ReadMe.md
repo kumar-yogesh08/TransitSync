@@ -21,7 +21,7 @@ There are no Current modern day Software Technologies working in the field of pu
 ## 🚀 What Makes TransitSync Different?
 
 This is **not Ola or Uber**. It doesn't work on the **"pick up from anywhere"** model.  
-Instead, it works on **established public transport routes**, dynamically updated by drivers or transport authorities through **Route Registration**.
+Instead, it works on **established public transport routes**, dynamically updated by drivers or transport authorities through **Route Registration** bounding passengers and drivers to fixed registered routes.
 
 📁 Refer to:
 - [Route Registration (Driver App)](./FieldTest&UI/DriverEnd_Application_TransitSyncDriver.png)
